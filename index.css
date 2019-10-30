@@ -1,0 +1,27 @@
+ul.menu{
+    list-style: none;
+}
+td{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    align-content: center;
+    border-top: 1px solid #000 ;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    border-left: 1px solid #000;
+}
+td.filaInicio{
+    border-top: 0px;
+}
+
+td.filaFin{
+    border-bottom: 0px;
+}
+td.columnaInicio{
+    border-left: 0px;
+}
+
+td.columnaFin{
+    border-right: 0px;
+}

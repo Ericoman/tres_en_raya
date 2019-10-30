@@ -1,0 +1,36 @@
+<!DOCTYPE html> 
+<html>
+    <head lang="es"> 
+        <meta charset="utf-8">
+        <title>Tres en línea</title>
+        <meta name="description" content="Una página para jugar al 3 en línea">
+        <link rel="stylesheet" href="index.css">
+        <script src="tres_en_raya.js" defer></script>
+        <script>
+            document.addEventListener("DOMContentLoaded", function(){
+                console.log("cargado");
+
+            });
+        </script>
+    </head>
+    <body>
+        <header>
+            <h1>3 en línea</h1>
+            
+        </header>
+        <div>
+                <fieldset> 
+                    <legend>Modo</legend>
+                    <label>
+                        <input type="radio" name="mode" id="mode_Auto" value="automatico" checked= "checked"> Automatico
+                    </label>
+                    <label>
+                        <input type="radio" name="mode" id= "mode_Manual" value="manual"> Manual
+                    </label>
+                    <label>
+                        <button id="button_jugar">Jugar</button>
+                    </label>
+                </fieldset>
+            </div>
+    </body>
+</html>
